@@ -7,11 +7,11 @@ namespace tool
 	{
 		static void Main(string[] args) 
 		{
-			const string PATH = "code.c";
+			const string PATH = "code.cpp";
 			
 			var file = new FileInfo(PATH);
 			
-			const string BEGIN = "#include <iostream>\nusing namespace std;\nint main()\n{\n\tcout << \"请给出一个不多于5位的正整数\" << endl;\n\tint x\n\tcin >> x;\n\tswitch(x) {\n";
+			const string BEGIN = "#include <iostream>\nusing namespace std;\nint main()\n{\n\tcout << \"请给出一个不多于5位的正整数\" << endl;\n\tint x;\n\tcin >> x;\n\tswitch(x) {\n";
 			const string TEMPLATE = "\tcase {0}:\n\t\tcout << \"是{1}位数\" << endl;\n\t\tcout << \"个位数是：{2}\" << endl;\n\t\tcout << \"倒过来是：{3}\" << endl;\n\t\tbreak;\n";
 			using (var steam = file.CreateText())
 			{
