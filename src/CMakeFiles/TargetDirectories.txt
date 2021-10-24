@@ -1,0 +1,3 @@
+/home/nidb/88wCode/src/CMakeFiles/rebuild_cache.dir
+/home/nidb/88wCode/src/CMakeFiles/edit_cache.dir
+/home/nidb/88wCode/src/CMakeFiles/88wCode.dir

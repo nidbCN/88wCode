@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/88wCode.dir/code.cpp.o  -o 88wCode 
